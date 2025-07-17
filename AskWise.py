@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Set your Claude API Key here
-API_KEY = "sk-or-v1-51574e1a79c07f-f4e4cd0d09d213b0a994f4b29e3315bf75b70f6f312ac834a3"  # Paste your OpenRouter API key here
+API_KEY = "or-v1-51574e1a79c07f-f4e4cd0d09d213b0a994f4b29e3315bf75b70f6f312ac834a3"  # Paste your OpenRouter API key here
 
 # Claude model name
 MODEL = "anthropic/claude-sonnet-4"
