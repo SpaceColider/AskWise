@@ -29,10 +29,11 @@ if user_input:
 
     # Claude API call using OpenRouter
     headers = {
-    "Authorization": f"Bearer {API_KEY}",
-    "HTTP-Referer": "https://askwise-8sekwyge5pusbxguzxycxq.streamlit.app",  
+    "Authorization": f"Bearer {API_KEY}",  # ✅ This MUST begin with f"
+    "HTTP-Referer": "https://askwise-8sekwyge5pusbxguzxycxq.streamlit.app",
     "X-Title": "My AI Chatbot"
 }
+
 
     
 
