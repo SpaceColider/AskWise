@@ -2,15 +2,15 @@ import streamlit as st
 import requests
 
 # Set your Claude API Key here
-API_KEY = "sk-or-v1-51574e1a79c07f-f4e4cd0d09d213b0a994f4b29e3315bf75b70f6f312ac834a3"  # Paste your OpenRouter API key here
+api_key= "sk-or-v1-51574e1a79c07f-f4e4cd0d09d213b0a994f4b29e3315bf75b70f6f312ac834a3"  # Paste your OpenRouter API key here
 
 # Claude model name
 MODEL = "anthropic/claude-sonnet-4"
 
 # App UI
 st.set_page_config(page_title="AskWise", layout="centered")
-st.title("Team 1, team leader-Smayan")
-st.markdown("Ask me anything!")
+st.title("AskWise")
+st.markdown("team 1, Team leader- Smayan")
 
 # Input box
 user_input = st.text_input("You:", "")
